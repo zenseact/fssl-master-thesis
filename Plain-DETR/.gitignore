@@ -1,0 +1,42 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.DS_Store
+.vscode/
+.idea/
+
+# Virtual environments
+.env
+.venv/
+venv/
+env/
+
+# Models
+pt_models/
+*.pth
+*.pt
+*.onnx
+*.h5
+*.ckpt
+checkpoints/
+outputs/
+logs/
+
+# Outputs
+output/
+exps/
+
+
+# Scratch files
+scratch/
+scratch*
+
+# data
+data/
+datasets/
+*.csv
+*.json
