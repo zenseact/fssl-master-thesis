@@ -1,6 +1,6 @@
 # Scalable Federated Learning for Autonomous Driving with Self Supervision
 
-Code for my Master's thesis at KTH Royal Institute of Technology, carried out at [RISE Research Institutes of Sweden](https://www.ri.se/) in collaboration with [Zenseact](https://zenseact.com/), within the DREAM project.
+Code for the Master's thesis at KTH Royal Institute of Technology, carried out at [RISE Research Institutes of Sweden](https://www.ri.se/) in collaboration with [Zenseact](https://zenseact.com/), within the DREAM project.
 
 The thesis studies whether **federated self-supervised learning (FSSL)** can replace centralized self-supervised pre-training of object detection backbones for autonomous driving. Backbones are pre-trained with [DINO](https://github.com/facebookresearch/dino) on unlabelled camera frames from the [Zenseact Open Dataset (ZOD)](https://zod.zenseact.com/), first centrally and then across a simulated vehicle fleet with [NVIDIA FLARE](https://github.com/NVIDIA/NVFlare), and are evaluated by fine-tuning a detector on ZOD.
 
